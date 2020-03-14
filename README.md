@@ -9,5 +9,6 @@
 7. 💩 一定要在`GENERATE_BODY()`之后起两个空行再定义成员函数，否则会使intellisense和clang分析工具报错
 8. 💩 解决`GEngine`未定义: `#include "Runtime/Engine/Classes/Engine/Engine.h"`
 9. 💩 ~~使用c++17：在`$PROJECT/Source/$PROJECT/$PROJECT(Editor).Target.cs`的类构造函数中加入`CppStandard = CppStandardVersion.Cpp17`~~(自己的轮子里面用了std::optioanl和std::any)
+10. 💩 用你妈的C++17，，，，，滚回去用C++11去了
 
 **TODO**
