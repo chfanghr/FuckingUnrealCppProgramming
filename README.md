@@ -10,5 +10,6 @@
 8. 💩 解决`GEngine`未定义: `#include "Runtime/Engine/Classes/Engine/Engine.h"`
 9. 💩 ~~使用c++17：在`$PROJECT/Source/$PROJECT/$PROJECT(Editor).Target.cs`的类构造函数中加入`CppStandard = CppStandardVersion.Cpp17`~~(自己的轮子里面用了std::optioanl和std::any)
 10. 💩 用你妈的C++17，，，，，滚回去用C++11去了
+11. 💩 在Windows下构建测试（GTest，conan，cmake，VS2019）：`cmake.exe -G "Visual Studio 16 2019" -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTS=1 --config Release -DBUILD_EXAMPLES=1 -A x64 -DCMAKE_CONFIGURATION_TYPES=Release ..`
 
 **TODO**
