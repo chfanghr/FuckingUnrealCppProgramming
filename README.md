@@ -12,7 +12,7 @@
 10. 💩 用你妈的C++17，，，，，滚回去用C++11去了
 11. 💩 在Windows下构建测试（GTest，conan，cmake，VS2019）：`cmake.exe -G "Visual Studio 16 2019" -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTS=1 --config Release -DBUILD_EXAMPLES=1 -A x64 -DCMAKE_CONFIGURATION_TYPES=Release ..`
 12. 💩 通过写插件来导入轮子。注意头文件路径不光在插件的构建脚本要写，工程的也要。
-13. 💩 std::string转TCHAR*：UTF8_TO_TCHAR(str.cstr())
+13. 💩 `std::string`转`TCHAR*`：`UTF8_TO_TCHAR(str.cstr())`
 14. 💩 cmake在Windows用msvc构建32位库：`cmake.exe -G "Visual Studio 16 2019" -DCMAKE_BUILD_TYPE=Release --config Release -DCMAKE_CONFIGURATION_TYPES=Release -A Win32 -B "build32" ..`
 
 **TODO**
