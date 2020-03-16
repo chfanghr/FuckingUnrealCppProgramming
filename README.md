@@ -14,5 +14,6 @@
 12. 💩 通过写插件来导入轮子。注意头文件路径不光在插件的构建脚本要写，工程的也要。
 13. 💩 `std::string`转`TCHAR*`：`UTF8_TO_TCHAR(str.cstr())`
 14. 💩 cmake在Windows用msvc构建32位库：`cmake.exe -G "Visual Studio 16 2019" -DCMAKE_BUILD_TYPE=Release --config Release -DCMAKE_CONFIGURATION_TYPES=Release -A Win32 -B "build32" ..`
+15. 💩 `UE_LOG`的format string（第三个参数）一定得用`TEXT()`生成
 
 **TODO**
