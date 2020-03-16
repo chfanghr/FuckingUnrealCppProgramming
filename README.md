@@ -21,5 +21,6 @@
 19. 💩 各种component: `#include "Runtime/Engine/Classes/Components/<NAME>Components.h"`
 20. 💩 从C++调用UE Blueprint中的函数/过程：[Calling Blueprint Functions from C++](https://www.orfeasel.com/calling-blueprint-functions-from-c/)
 21. 💩 根据[这个链接](https://forums.unrealengine.com/development-discussion/blueprint-visual-scripting/54713-using-delegates-as-function-parameters),似乎应该使用[dynamic delegate](https://docs.unrealengine.com/en-US/Programming/UnrealArchitecture/Delegates/Dynamic/index.html)来传递蓝图的函数
+22. 💩 实现思路大约是在蓝图里面整custom event然后在c++里实现event dispatcher
 
 **TODO**
