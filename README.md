@@ -17,5 +17,7 @@
 15. 💩 `UE_LOG`的format string（第三个参数）一定得用`TEXT()`生成
 16. 💩 代码风格：[Unreal Engine Coding Standard](https://docs.unrealengine.com/en-US/Programming/Development/CodingStandard/index.html)
 17. 💩 类型转换：[`Cast`](https://docs.unrealengine.com/en-US/API/Runtime/CoreUObject/Templates/Cast/index.html)
+18. 💩 `UIInputComponent`：`#include "Runtime/Engine/Classes/GameFramework/Controller.h"`
+19. 💩 各种component: `#include "Runtime/Engine/Classes/Components/<NAMW>Components.h"`
 
 **TODO**
